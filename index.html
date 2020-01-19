@@ -2,7 +2,17 @@
 layout: default
 title: Home
 ---
-    		<div class="blurb">
+<body>
+    		
         		<h1>Hi there, I'm Joey!</h1>
 				<p>This is a base for the website I will be coding over the next few weeks. <em>This is my personal project.</em></p>
-    		</div><!-- /.blurb -->
+				<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+			
+		</body>
